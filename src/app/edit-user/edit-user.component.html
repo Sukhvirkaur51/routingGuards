@@ -1,0 +1,44 @@
+<mat-card>
+  <mat-toolbar>Edit User Details</mat-toolbar>
+  <br> <br>
+  <form #updateform="ngForm">
+   <mat-form-field>
+     <input
+     type="text"
+      name="username"
+      ngModel
+      matInput
+      placeholder="Name">
+   </mat-form-field>
+
+   <mat-form-field>
+    <input
+    type="text"
+     name="email"
+     ngModel
+     matInput
+     placeholder="Email">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input
+    type="text"
+     name="location"
+     ngModel
+     matInput
+     placeholder="Location">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input
+    type="text"
+     name="profile"
+     ngModel
+     matInput
+     placeholder="Profile">
+  </mat-form-field>
+
+  <button type="submit" mat-raised-button color="primary">Update User</button>
+
+  </form>
+</mat-card>
